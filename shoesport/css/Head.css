@@ -1,0 +1,169 @@
+/* Style général de la barre de navigation */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center; /* Aligner les éléments au centre */
+  }
+  
+  /* Style des éléments de la barre de navigation */
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Style des éléments de la barre de navigation au survol */
+  .navbar li a:hover {
+    background-color: #ffa600;
+  }
+  
+  /* Style des boutons */
+  .btn-primary,
+  .btn-secondary {
+    position: fixed;
+    top: 20px; /* Ajustez la valeur pour définir la distance par rapport au haut */
+    right: 100px; /* Ajustez la valeur pour définir la distance par rapport à la droite */
+    background-color: #ffa600; /* Couleur jaune foncé pour le fond du bouton */
+    border: none;
+    color: #fff; /* Couleur blanche pour le texte du bouton */
+    padding: 8px 16px; /* Réduire la taille du bouton */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre légère */
+}
+
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    background-color: #ffcc00; /* Couleur jaune plus claire au survol */
+    color: white(255, 0, 0); /* Couleur blanche pour le texte du bouton au survol */
+    transform: scale(1.05); /* Légère agrandissement au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
+  }
+  
+  /* Style de l'image du panier */
+  .imagepanier {
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  /* Reset des marges par défaut pour le corps de la page */
+body {
+    margin: 0;
+  }
+/* Style du conteneur parent */
+.container {
+  position: fixed;
+  top: 20px;
+  left: calc(50% - 252px); /* Positionner horizontalement avec un décalage de 252 pixels sur la gauche */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Style de la barre de recherche */
+.search-bar {
+  background-color: transparent; /* Rendre le champ de recherche transparent */
+  border: none;
+  color: #ffa600;
+  font-size: 16px;
+  padding: 8px; /* Réduire la taille de la zone de recherche */
+  border-radius: 5px;
+}
+
+/* Style du bouton "Rechercher" */
+.btn-primary {
+  background-color: #ffa600; /* Couleur jaune foncé pour le bouton */
+  border: none;
+  color: #fff; /* Couleur blanche pour le texte du bouton */
+  font-size: 16px;
+  padding: 8px 10px; /* Réduire la taille du bouton */
+  border-radius: 20px; /* Réduire le border-radius pour rendre le bouton moins rond */
+  cursor: pointer;
+  width: 100px; /* Définir une largeur personnalisée pour le bouton */
+}
+
+
+  .btn-primary {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa600; /* Couleur jaune foncé pour le bouton */
+    border: none;
+    color: #fff; /* Couleur blanche pour le texte du bouton */
+    font-size: 16px;
+    padding: 8px 10px; /* Réduire le padding pour diminuer la largeur */
+    border-radius: 20px; /* Réduire le border-radius pour rendre le bouton moins rond */
+    cursor: pointer;
+    width: 100px; /* Définir une largeur personnalisée pour le bouton */
+}
+
+
+
+
+
+  /* Style général de la barre de navigation */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center; /* Aligner les éléments au centre */
+  }
+  
+  /* Style des éléments de la barre de navigation */
+  .navbar li {
+    display: inline-block; /* Affiche les éléments en ligne */
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Style des éléments de la barre de navigation au survol */
+  .navbar li a:hover {
+    background-color: #ffa600;
+  }
+  
+  /* Style de la barre de recherche */
+  .search-bar-container {
+    display: inline-block; /* Affiche les éléments en ligne */
+    background-color: #000;
+    color: #ffa600;
+    padding: 8px; /* Réduire la taille de la zone de recherche */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+  
+
+  
+  
+
+

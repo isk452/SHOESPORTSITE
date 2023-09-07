@@ -1,0 +1,24 @@
+.panier-element {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.panier-element p {
+    margin: 0;
+}
+
+.panier-element a {
+    display: inline-block;
+    background-color: #0099ff;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.panier-element a:hover {
+    background-color: #0077cc;
+}

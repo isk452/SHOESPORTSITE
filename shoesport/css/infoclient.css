@@ -1,0 +1,43 @@
+.formulaire {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+.formulaire h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.formulaire label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.formulaire button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.formulaire button[type="submit"]:hover {
+    background-color: #0069d9;
+}

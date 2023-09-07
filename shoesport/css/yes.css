@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+}
+
+.article,
+.article2,
+.article3 {
+    background-color: blue;
+    border-radius: 20px;
+    height: 90px;
+    width: 100px;
+}

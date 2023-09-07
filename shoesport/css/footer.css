@@ -1,0 +1,40 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    height: 35px;
+    left: 0;
+    right: 0;
+}
+
+.sterling {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    top: 10px;
+}
+
+.walker {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.silva {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.ter {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.shoes {
+    color: white;
+    position: relative;
+    left: 10px;
+}

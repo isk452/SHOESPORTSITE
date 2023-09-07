@@ -1,0 +1,96 @@
+/* CSS pour la page de connexion/inscription */
+
+/* Styles pour le container principal */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles pour le formulaire d'inscription */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Styles pour le formulaire d'inscription */
+.sign-up-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-up-container button:hover {
+    background-color: #0069d9;
+}
+
+/* Styles pour le formulaire de connexion */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container2 input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container2 label {
+    font-weight: bold;
+}
+
+.container2 input[type="submit"] {
+    width: 8%;
+    padding: 10px;
+    margin-top: 650px;
+    margin-left: 400px; /* Ajoutez cette ligne pour ajuster le déplacement vers la droite */
+    border: none;
+    border-radius: 50px;
+    background-color: #ffa600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container2 input[type="submit"]:hover {
+    background-color: #ffa600;
+}
+
+/* Styles pour le bouton de basculement entre les formulaires */
+button {
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    color: #007bff;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.produit {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    top: 120px;
+}
+
+.produit:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.produit:hover img {
+    opacity: 0.7;
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.produit .nom {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.produit .prix {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.produit .ajouter-panier {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.produit .ajouter-panier:hover {
+    background-color: #333;
+}
+
+.discounts {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+}
+
+.discounts h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #222;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.arrow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}

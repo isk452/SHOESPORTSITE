@@ -1,0 +1,19 @@
+.panier-element {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.panier-element p {
+    margin: 0;
+}
+
+.panier-element p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.panier-element p:last-of-type {
+    margin-top: 10px;
+}
